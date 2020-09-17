@@ -9,6 +9,8 @@ PHPClassSession("functions", __LINE__);
 var_dump(functionName("IFTO", "NOVOS CAMINHOS", 'PROGRAMADOR WEB'));
 var_dump(functionName("Iury", "Pedrinha", 'Jade'));
 
+//var_dump(CalcMedia(5, 6, 6));
+
 // var_dump(calcIMC(86, 1.72));
 // var_dump(calcIMC(90, 1.89));
 // var_dump(calcIMC(100, 2));

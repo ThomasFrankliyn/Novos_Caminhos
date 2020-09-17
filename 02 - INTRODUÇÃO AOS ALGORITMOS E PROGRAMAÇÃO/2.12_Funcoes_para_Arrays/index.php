@@ -23,6 +23,15 @@ $assoc = ["dev4" => "FULL CYCLE DEVELOPER"] + $assoc;
 array_push($index, "DEVOPS");
 $assoc = $assoc + ["dev5" => "DEVOPS"];
 
+$instruments = [
+    "Violão", "Baixo", "Guitarra"
+];
+
+var_dump($instruments);
+
+array_unshift($instruments, "Bateria", "Acordeon");
+var_dump($instruments);
+
 // array_shift($index);
 // array_shift($assoc);
 

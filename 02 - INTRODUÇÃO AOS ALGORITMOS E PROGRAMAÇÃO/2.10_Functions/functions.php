@@ -34,3 +34,9 @@ function myTeam()
 
     return ["members" => $teamName, "count" => $teamCount];
 }
+
+function CalcMedia($N1, $N2, $N3)
+{
+    $Media = $N1 + $N2 + $N3 / 3;
+    return $Media;
+}
